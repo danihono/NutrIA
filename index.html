@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NutrIA · Inteligência que nutre você</title>
+  <meta name="description" content="NutrIA é a startup de IA para alimentação que cria dietas personalizadas e analisa seus pratos por foto em segundos." />
+
+  <link rel="icon" type="image/png" href="assets/img/logo-nutria.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Our style -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-hero="split">
+
+  <!-- ==================== HEADER / NAVBAR ==================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg nt-navbar fixed-top" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand nt-brand" href="#top">
+          <img class="nt-brand-mark" src="assets/img/logo-nutria.png" alt="Logo NutrIA" />
+          Nutr<em>IA</em>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ntNav" aria-controls="ntNav" aria-expanded="false" aria-label="Abrir menu de navegação">
+          <span class="nt-toggler-icon" aria-hidden="true"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ntNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-1">
+            <li class="nav-item"><a class="nav-link nt-nav-link" href="#historia">História</a></li>
+            <li class="nav-item"><a class="nav-link nt-nav-link" href="#fazemos">O que fazemos</a></li>
+            <li class="nav-item"><a class="nav-link nt-nav-link" href="#solucoes">Soluções</a></li>
+            <li class="nav-item"><a class="nav-link nt-nav-link" href="#feedbacks">Feedbacks</a></li>
+            <li class="nav-item"><a class="nav-link nt-nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link nt-nav-link" href="#contato">Contato</a></li>
+          </ul>
+
+          <a href="https://wa.me/5519984487271?text=Ol%C3%A1!%20Tenho%20interesse%20na%20NutrIA." target="_blank" rel="noopener" class="nt-btn nt-btn-orange nt-btn-sm">
+            Começar agora
+            <svg class="nt-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ==================== HERO ==================== -->
+    <section class="nt-hero">
+      <div class="container" style="padding-top: 100px;">
+        <div class="nt-hero-grid">
+          <div class="nt-hero-copy">
+            <span class="nt-eyebrow reveal">Startup · IA para alimentação</span>
+            <h1 class="nt-display mt-4 reveal" data-delay="1">
+              <span class="line">Inteligência que</span>
+              <span class="line"><span class="accent">nutre</span> você.</span>
+            </h1>
+            <p class="nt-lead mt-4 reveal" data-delay="2">
+              A NutrIA transforma sua rotina em um plano alimentar feito sob medida —
+              e entende seu prato só com uma foto. Menos culpa, mais clareza.
+            </p>
+
+            <div class="nt-hero-cta reveal" data-delay="3">
+              <a href="#solucoes" class="nt-btn nt-btn-orange">
+                Ver soluções
+                <svg class="nt-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg>
+              </a>
+              <a href="#historia" class="nt-btn nt-btn-ghost">Nossa história</a>
+            </div>
+
+            <div class="nt-hero-meta reveal" data-delay="4">
+              <span class="pill"><span class="dot"></span> IA ativa · atualizada hoje</span>
+              <span class="pill">+12 mil planos gerados este mês</span>
+              <span class="pill">4.9 ★ na App Store</span>
+            </div>
+          </div>
+
+          <div class="nt-hero-visual reveal" data-delay="2">
+            <div class="nt-phone-wrap">
+
+              <div class="nt-sticker one" aria-hidden="true">
+                <span class="emoji">🥗</span>
+                <div>
+                  <strong>Salada Mediterrânea</strong>
+                  <small>detectado · 412 kcal</small>
+                </div>
+              </div>
+
+              <div class="nt-sticker two" aria-hidden="true">
+                <span class="emoji">⚡</span>
+                <div>
+                  <strong>+18g proteína</strong>
+                  <small>meta diária · 72%</small>
+                </div>
+              </div>
+
+              <div class="nt-phone" role="img" aria-label="Mockup do aplicativo NutrIA mostrando o painel diário de calorias e macronutrientes">
+                <div class="nt-phone-screen">
+                  <div class="nt-phone-status">
+                    <span>09:41</span>
+                    <span class="right"><span></span><span></span><span></span></span>
+                  </div>
+
+                  <div class="nt-app-header">
+                    <div class="greet">
+                      Olá, Marina
+                      <small>terça · 23 abr</small>
+                    </div>
+                    <div class="nt-app-avatar">M</div>
+                  </div>
+
+                  <div class="nt-app-card hero">
+                    <div class="label">Calorias de hoje</div>
+                    <div class="kcal" data-counter="1284" data-suffix="">0<small> / 2060 kcal</small></div>
+                    <div class="bar"><i></i></div>
+                  </div>
+
+                  <div class="nt-app-card">
+                    <div class="nt-app-meal">
+                      <div class="nt-app-meal-img" aria-hidden="true">🥗</div>
+                      <div class="nt-app-meal-info">
+                        <div class="name">Bowl de grão-de-bico</div>
+                        <div class="macros">P 24g · C 48g · G 12g</div>
+                      </div>
+                      <div class="nt-app-meal-kcal">412</div>
+                    </div>
+                  </div>
+
+                  <div class="nt-app-card">
+                    <div class="nt-app-meal">
+                      <div class="nt-app-meal-img" aria-hidden="true">🍳</div>
+                      <div class="nt-app-meal-info">
+                        <div class="name">Omelete de espinafre</div>
+                        <div class="macros">P 22g · C 6g · G 14g</div>
+                      </div>
+                      <div class="nt-app-meal-kcal">254</div>
+                    </div>
+                  </div>
+
+                  <div class="nt-app-tabbar" aria-hidden="true">
+                    <span class="on"></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nt-hero-aside" aria-hidden="true">nutrição</div>
+    </section>
+
+    <!-- ==================== MARQUEE ==================== -->
+    <div class="nt-marquee" aria-hidden="true">
+      <div class="nt-marquee-track">
+        <span>Dieta <em>personalizada</em></span><span class="sep">✦</span>
+        <span>Análise por <em>foto</em></span><span class="sep">✦</span>
+        <span>Macros <em>em tempo real</em></span><span class="sep">✦</span>
+        <span>IA <em>treinada por nutricionistas</em></span><span class="sep">✦</span>
+        <span>Dieta <em>personalizada</em></span><span class="sep">✦</span>
+        <span>Análise por <em>foto</em></span><span class="sep">✦</span>
+        <span>Macros <em>em tempo real</em></span><span class="sep">✦</span>
+        <span>IA <em>treinada por nutricionistas</em></span><span class="sep">✦</span>
+      </div>
+    </div>
+
+    <!-- ==================== HISTÓRIA ==================== -->
+    <section class="nt-section nt-story" id="historia">
+      <div class="container">
+        <div class="nt-section-head">
+          <div class="reveal">
+            <span class="nt-eyebrow">01 — História</span>
+            <h2 class="nt-h2 mt-3">De uma cozinha<br/><span class="nt-italic nt-orange">para milhares</span> de rotinas.</h2>
+          </div>
+          <p class="nt-lead reveal" data-delay="1">
+            Começamos em 2023 tentando responder uma pergunta simples:
+            por que é tão difícil comer bem quando o dia já é corrido o suficiente?
+          </p>
+        </div>
+
+        <div class="nt-story-grid">
+          <div class="reveal">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80" alt="Mesa com pratos coloridos, frutas, grãos e vegetais frescos representando uma refeição saudável" class="nt-story-img" style="object-fit: cover;" onerror="this.src='';this.removeAttribute('src');" />
+          </div>
+          <div class="nt-story-body reveal" data-delay="1">
+            <p>Éramos três — uma nutricionista, um engenheiro de IA e uma designer — convencidos
+              de que planos alimentares de verdade não cabem em planilhas genéricas. Eles precisam
+              entender rotina, humor, corpo, orçamento.</p>
+            <p>Treinamos um modelo com mais de <strong>1,2 milhão</strong> de refeições reais,
+              validadas por profissionais, e abrimos o app para 500 pessoas. Em seis meses já eram
+              <strong>50 mil planos</strong> personalizados rodando todos os dias.</p>
+            <p>Hoje a NutrIA existe pra provar que tecnologia boa se mede por hábitos que ficam —
+              não por métricas que brilham.</p>
+
+            <div class="mt-4 d-flex gap-3 flex-wrap">
+              <a href="#fazemos" class="nt-btn nt-btn-orange nt-btn-sm">
+                O que fazemos
+                <svg class="nt-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg>
+              </a>
+              <a href="#contato" class="nt-btn nt-btn-ghost nt-btn-sm">Fale com o time</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== O QUE FAZEMOS ==================== -->
+    <section class="nt-section" id="fazemos">
+      <div class="container">
+        <div class="nt-section-head">
+          <div class="reveal">
+            <span class="nt-eyebrow">02 — O que fazemos</span>
+            <h2 class="nt-h2 mt-3">Tecnologia que<br/><span class="nt-italic nt-orange">cabe</span> no seu dia.</h2>
+          </div>
+          <p class="nt-lead reveal" data-delay="1">
+            Cada funcionalidade foi pensada para reduzir fricção — o que pede decisão, nós decidimos;
+            o que pede hábito, a gente te lembra.
+          </p>
+        </div>
+
+        <div class="nt-do-list">
+          <article class="nt-do-row reveal">
+            <div class="nt-do-num">— 01</div>
+            <h3 class="nt-do-title">Dietas <em>adaptativas</em> que aprendem com a sua rotina.</h3>
+            <p class="nt-do-desc">A IA observa seus horários, preferências e sinais do corpo para ajustar o plano toda semana. Nada engessado.</p>
+          </article>
+
+          <article class="nt-do-row reveal">
+            <div class="nt-do-num">— 02</div>
+            <h3 class="nt-do-title">Análise por <em>foto</em> em menos de 3 segundos.</h3>
+            <p class="nt-do-desc">Fotografou, reconhecemos. Calorias, macronutrientes, porção. Se errou, é só corrigir — o modelo aprende com você.</p>
+          </article>
+
+          <article class="nt-do-row reveal">
+            <div class="nt-do-num">— 03</div>
+            <h3 class="nt-do-title">Lista de compras <em>inteligente</em> por geolocalização.</h3>
+            <p class="nt-do-desc">Montamos a compra da semana com itens do supermercado mais próximo e respeitando o seu orçamento.</p>
+          </article>
+
+          <article class="nt-do-row reveal">
+            <div class="nt-do-num">— 04</div>
+            <h3 class="nt-do-title">Acompanhamento humano <em>quando precisar</em>.</h3>
+            <p class="nt-do-desc">Nutricionistas parceiros revisam os planos e respondem direto pelo app. Automatizamos o trivial, mantemos o humano no que importa.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SOLUÇÕES ==================== -->
+    <section class="nt-section nt-solutions" id="solucoes">
+      <div class="container">
+        <div class="nt-section-head">
+          <div class="reveal">
+            <span class="nt-eyebrow">03 — Soluções</span>
+            <h2 class="nt-h2 mt-3">Dois produtos,<br/>uma <span class="nt-italic" style="color: var(--nt-orange);">mesma</span> missão.</h2>
+          </div>
+          <p class="nt-lead reveal" data-delay="1">
+            Ferramentas desenhadas pra trabalhar juntas. Começam simples, crescem com você.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6 reveal">
+            <article class="nt-sol-card">
+              <span class="tag">Produto 01 · Plan</span>
+              <h3>Dietas <em>personalizadas</em> por IA.</h3>
+              <p>A partir da sua rotina, idade, peso, altura e preferências, a IA monta um plano alimentar semanal que se reajusta sozinho conforme seus resultados e humor.</p>
+
+              <div class="nt-sol-visual">
+                <div class="sol-viz-plan">
+                  <div class="day"><i style="height:40%"></i>S</div>
+                  <div class="day"><i style="height:65%"></i>T</div>
+                  <div class="day"><i style="height:50%"></i>Q</div>
+                  <div class="day"><i style="height:80%"></i>Q</div>
+                  <div class="day"><i style="height:70%"></i>S</div>
+                  <div class="day"><i style="height:55%"></i>S</div>
+                  <div class="day"><i style="height:90%"></i>D</div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-6 reveal" data-delay="1">
+            <article class="nt-sol-card">
+              <span class="tag">Produto 02 · Scan</span>
+              <h3>Fotografe. A IA <em>analisa</em> o resto.</h3>
+              <p>Calorias, proteínas, carboidratos e gorduras a partir de uma única foto. Reconhecimento multi-alimento, estimativa de porção e aprendizado contínuo com seus ajustes.</p>
+
+              <div class="nt-sol-visual nt-sol-visual-photo">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80" alt="Prato saudável visto de cima com grãos, ovo e vegetais" loading="lazy" />
+                <div class="sol-viz-scan-overlay">
+                  <div class="frame"></div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MÉTRICAS ==================== -->
+    <section class="nt-section" id="numeros" style="padding-top: 60px; padding-bottom: 60px;">
+      <div class="container">
+        <div class="nt-metrics">
+          <div class="nt-metric reveal">
+            <div class="num"><span data-counter="12" data-suffix="">0</span>k<em>+</em></div>
+            <div class="label">Usuários ativos<br/>mensais</div>
+          </div>
+          <div class="nt-metric reveal" data-delay="1">
+            <div class="num"><span data-counter="58" data-suffix="">0</span>k<em>+</em></div>
+            <div class="label">Planos alimentares<br/>gerados</div>
+          </div>
+          <div class="nt-metric reveal" data-delay="2">
+            <div class="num"><span data-counter="92" data-suffix="">0</span>%</div>
+            <div class="label">Satisfação<br/>em 3 meses</div>
+          </div>
+          <div class="nt-metric reveal" data-delay="3">
+            <div class="num"><span data-counter="4" data-suffix="">0</span><em>.9</em></div>
+            <div class="label">Nota média<br/>na App Store</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEEDBACKS ==================== -->
+    <section class="nt-section nt-story" id="feedbacks" style="background: var(--nt-cream);">
+      <div class="container">
+        <div class="nt-section-head">
+          <div class="reveal">
+            <span class="nt-eyebrow">04 — Feedbacks</span>
+            <h2 class="nt-h2 mt-3">O que dizem<br/>os nossos <span class="nt-italic nt-orange">primeiros</span>.</h2>
+          </div>
+          <p class="nt-lead reveal" data-delay="1">
+            Histórias reais de quem transformou a relação com a comida usando a NutrIA.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 reveal">
+            <article class="nt-fb-card">
+              <div class="nt-fb-stars" aria-label="5 de 5 estrelas">★ ★ ★ ★ ★</div>
+              <blockquote>
+                “Em três meses eu finalmente <em>parei</em> de pensar em comida como um problema.
+                O app entende quando eu tô sem tempo e adapta o plano. É quase mágico.”
+              </blockquote>
+              <div class="nt-fb-person">
+                <div class="nt-fb-avatar">PP</div>
+                <div>
+                  <div class="nt-fb-name">Prof. Patrick</div>
+                  <div class="nt-fb-role">Professor</div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 reveal" data-delay="1">
+            <article class="nt-fb-card">
+              <div class="nt-fb-stars" aria-label="5 de 5 estrelas">★ ★ ★ ★ ★</div>
+              <blockquote>
+                “Sou péssimo em anotar o que como. A <em>análise por foto</em> mudou o jogo —
+                tiro uma foto e pronto, os macros já estão lá. Ganhei 4kg de massa em 5 meses.”
+              </blockquote>
+              <div class="nt-fb-person">
+                <div class="nt-fb-avatar">PS</div>
+                <div>
+                  <div class="nt-fb-name">Patrick Schultz</div>
+                  <div class="nt-fb-role">DEV</div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 reveal" data-delay="2">
+            <article class="nt-fb-card">
+              <div class="nt-fb-stars" aria-label="5 de 5 estrelas">★ ★ ★ ★ ★</div>
+              <blockquote>
+                “Testei muitos apps de dieta. Esse é o primeiro que não me faz sentir <em>culpada</em>
+                quando eu como fora do plano. Ele se ajusta, não me cobra. Perfeito.”
+              </blockquote>
+              <div class="nt-fb-person">
+                <div class="nt-fb-avatar">SS</div>
+                <div>
+                  <div class="nt-fb-name">Sr. Schultz</div>
+                  <div class="nt-fb-role">Empresário</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BLOG ==================== -->
+    <section class="nt-section" id="blog">
+      <div class="container">
+        <div class="nt-section-head">
+          <div class="reveal">
+            <span class="nt-eyebrow">05 — Blog</span>
+            <h2 class="nt-h2 mt-3">Ciência, cozinha<br/>e <span class="nt-italic nt-orange">rotina</span> real.</h2>
+          </div>
+          <p class="nt-lead reveal" data-delay="1">
+            Conteúdo escrito por nutricionistas e revisado pela nossa equipe de pesquisa.
+            Sem modismo, sem promessa milagrosa.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 reveal">
+            <a class="nt-blog-card" href="#">
+              <div class="nt-blog-cover"><img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=80" alt="Peito de frango grelhado em uma tábua de madeira com ervas" loading="lazy" /></div>
+              <div class="nt-blog-body">
+                <div class="nt-blog-meta"><span class="cat">Nutrição</span><span>·</span><span>6 min</span></div>
+                <h3>Quanta proteína você realmente precisa no dia?</h3>
+                <p>A resposta curta é: depende. A resposta útil envolve idade, rotina e tipo de treino — traduzida pra quem vive fora do laboratório.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 reveal" data-delay="1">
+            <a class="nt-blog-card" href="#">
+              <div class="nt-blog-cover"><img src="assets/img/blog-ia-scanner.png" alt="Interface da IA NutrIA analisando um prato com arroz, frango grelhado, feijão e salada — exibindo calorias e macronutrientes em tempo real" loading="lazy" /></div>
+              <div class="nt-blog-body">
+                <div class="nt-blog-meta"><span class="cat">Tecnologia</span><span>·</span><span>8 min</span></div>
+                <h3>Como a IA identifica um prato só pela foto.</h3>
+                <p>Um passeio por modelos de visão computacional, datasets treinados com nutricionistas e por que pouca luz é o maior inimigo do scan.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 reveal" data-delay="2">
+            <a class="nt-blog-card" href="#">
+              <div class="nt-blog-cover"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80" alt="Pessoa preparando refeição saudável na cozinha em casa" loading="lazy" /></div>
+              <div class="nt-blog-body">
+                <div class="nt-blog-meta"><span class="cat">Comportamento</span><span>·</span><span>5 min</span></div>
+                <h3>Por que planos perfeitos falham em semanas imperfeitas.</h3>
+                <p>Flexibilidade não é o oposto de disciplina — é o que faz o hábito durar. Um olhar sobre o design de planos adaptativos.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTATO ==================== -->
+    <section class="nt-section nt-contact" id="contato">
+      <div class="container">
+        <div class="nt-section-head">
+          <div class="reveal">
+            <span class="nt-eyebrow">06 — Contato</span>
+            <h2 class="nt-h2 mt-3">Vamos <span class="nt-italic nt-orange">conversar</span>?</h2>
+          </div>
+          <p class="nt-lead reveal" data-delay="1">
+            Quer testar a NutrIA, fazer uma parceria ou só mandar um oi?
+            A gente responde em até um dia útil.
+          </p>
+        </div>
+
+        <div class="nt-contact-grid">
+          <div class="nt-contact-info reveal">
+            <div class="row">
+              <div class="k">E-mail</div>
+              <div class="v"><a href="mailto:danihono@icloud.com">danihono@icloud.com</a></div>
+            </div>
+            <div class="row">
+              <div class="k">Telefone</div>
+              <div class="v"><a href="https://wa.me/5519984487271" target="_blank" rel="noopener">+55 (19) 98448-7271</a></div>
+            </div>
+            <div class="row">
+              <div class="k">Endereço</div>
+              <div class="v">UniAnchieta<br/>Jundiaí · SP · BR</div>
+            </div>
+            <div class="row">
+              <div class="k">Social</div>
+              <div class="v"><a href="https://instagram.com/nutria.app" target="_blank" rel="noopener">@nutria.app</a> · <a href="https://instagram.com/dani_hono" target="_blank" rel="noopener">@dani_hono</a></div>
+            </div>
+          </div>
+
+          <form id="ntForm" class="reveal" data-delay="1" action="contato.php" method="POST" novalidate>
+            <div id="ntFormOk" class="nt-form-ok" role="status" aria-live="polite">
+              <span class="dot"></span>
+              Mensagem enviada! Obrigado — respondemos em até 24h.
+            </div>
+
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="nt-field">
+                  <label for="nome">Nome completo</label>
+                  <input type="text" id="nome" name="nome" placeholder="Como podemos te chamar?" autocomplete="name" required />
+                  <span class="err" data-for="nome">Por favor, preencha o seu nome.</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="nt-field">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" name="email" placeholder="voce@exemplo.com" autocomplete="email" required />
+                  <span class="err" data-for="email">Informe um e-mail válido.</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="nt-field">
+                  <label for="telefone">Telefone (opcional)</label>
+                  <input type="tel" id="telefone" name="telefone" placeholder="(11) 90000-0000" autocomplete="tel" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="nt-field">
+                  <label for="assunto">Assunto</label>
+                  <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="beta">Quero testar o app</option>
+                    <option value="parceria">Proposta de parceria</option>
+                    <option value="imprensa">Imprensa</option>
+                    <option value="outros">Outros</option>
+                  </select>
+                  <span class="err" data-for="assunto">Selecione um assunto.</span>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="nt-field">
+                  <label for="mensagem">Mensagem</label>
+                  <textarea id="mensagem" name="mensagem" placeholder="Conta pra gente o que você tem em mente…" required></textarea>
+                  <span class="err" data-for="mensagem">Escreva uma mensagem.</span>
+                </div>
+              </div>
+              <div class="col-12 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                <small style="font-family: var(--nt-mono); font-size: 12px; color: var(--nt-muted);">
+                  Ao enviar, você concorda com a nossa política de privacidade.
+                </small>
+                <button type="submit" class="nt-btn nt-btn-orange">
+                  Enviar mensagem
+                  <svg class="nt-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="nt-footer" id="footer">
+    <div class="container">
+      <div class="nt-footer-huge reveal">
+        Nutr<em>IA</em>.<br/>
+        Coma com <em>clareza</em>.
+      </div>
+
+      <div class="nt-footer-grid">
+        <div>
+          <h5>NutrIA</h5>
+          <p style="color: rgba(255,255,255,.65); font-size: 14.5px; line-height: 1.55; max-width: 34ch;">
+            Startup brasileira construindo a próxima geração de ferramentas de alimentação baseadas em IA.
+          </p>
+        </div>
+        <div>
+          <h5>Produto</h5>
+          <ul>
+            <li><a href="#solucoes">NutrIA Plan</a></li>
+            <li><a href="#solucoes">NutrIA Scan</a></li>
+            <li><a href="#fazemos">Para profissionais</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="#historia">Nossa história</a></li>
+            <li><a href="#feedbacks">Feedbacks</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="#">Termos de uso</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="admin.php">Área admin</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="nt-footer-bottom">
+        <span>© 2026 NutrIA Tecnologia Ltda · CNPJ 00.000.000/0001-00</span>
+        <span>Desenvolvido por Daniel Honorato &amp; Guilherme Lumier</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== TWEAKS PANEL HOST ==================== -->
+  <div id="tweakRoot"></div>
+
+  <!-- Bootstrap JS (bundle com Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- React + Babel (para o painel Tweaks) -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script src="assets/js/script.js"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="assets/js/tweaks.jsx"></script>
+</body>
+</html>
